@@ -1,0 +1,352 @@
+body {
+    background-color: #333333;
+    font-family: OpenSymbol, cursive;
+    font-size: 20px;
+    color: white;
+}
+
+
+#container {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#heading {
+    background-image: url("https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    width: 100%;
+    height: auto;
+}
+#clock
+{
+    padding: 40px 0;
+    float: right;
+    font-size: 40px;
+    background-color: #242424;
+    height: 45px;
+    text-align: center;
+    margin-top: 8px;
+    font-family: OpenSymbol, cursive;
+}
+
+#date
+{
+    padding: 40px 0;
+    float: right;
+    font-size: 40px;
+    background-color: #242424;
+    height: 45px;
+    margin-right: 15px;
+    margin-top: 8px;
+    text-align: center;
+    font-family: OpenSymbol, cursive;
+}
+
+#clock:hover
+{
+    background-color: #1a8dff;
+}
+
+#date:hover
+{
+    background-color: #1a8dff;
+}
+
+
+#logo {
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+    font-size: 275px;
+    font-family: 'Bahianita', cursive;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    margin-top: 150px;
+    text-shadow: black 15px 25px 33px;
+    max-width: 100%;
+}
+.description
+{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+    margin-top: 120px;
+    text-shadow: black 10px 15px 13px;
+
+}
+
+.navigation {
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 43px;
+    text-align: left;
+    letter-spacing: 2px;
+
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.options {
+    background-color: black;
+    opacity: 0.8;
+
+}
+
+.options:hover {
+    background-color: #4f4f4c;
+    cursor: pointer;
+
+}
+
+
+.footer {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 0px;
+    background-color: #333333;
+    border: black 5px;
+    max-width: 100%;
+}
+
+.socials {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: black 10px 15px 13px;
+    max-width: 100%;
+}
+
+.socials .icon {
+    width: 250px;
+    height: 155px;
+    float: left;
+}
+
+.icon.fb:hover {
+    background-color: #4668b3;
+}
+
+.icon.ig:hover {
+    background-color: #8d00ff
+}
+
+.icon.yt:hover {
+    background-color: red;
+}
+
+
+.icon.mail:hover {
+    background-color: #d95333;
+}
+
+.link
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+ul
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ul a
+{
+    color: #4f4f4c;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+
+.dropdown-content a:hover
+{background-color: #E8E8E8;
+color: black;
+}
+
+.show
+{display:block;}
+
+.dropbtn
+{
+    background-color: black;
+    color: #E8E8E8;
+    border: none;
+    text-decoration: none;
+    opacity: 0.7;
+    height: 75px;
+    width: 75px;
+}
+
+.dropbtn:hover
+{
+    background-color: #E8E8E8;
+    color: black;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+@media only screen and (max-width: 1154px){
+    .socials {width: 100%}
+    .socials .icon {width: 100%;}
+    #clock {width: 100%}
+    #date {width: 100%}
+    #logo {font-size: 200px}
+}
+
+.modalContainer
+{
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    color: #000000;
+    max-width: 100%;
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+.modalHeader
+{
+    background-color: #262626;
+    color: #bfbfbf;
+    text-align: center;
+}
+
+.modalMail
+{
+    margin-top: 5px;
+}
+
+.modalTopic
+{
+    margin-top: 5px;
+}
+
+.modalContent
+{
+    margin-right: auto;
+    margin-left: 1px;
+    margin-top: 2px;
+}
+
+.modalSend
+{
+    width: auto;
+    height: 85px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    float: bottom;
+}
+
+input[type=text],
+input[type=email],
+textarea
+{
+    width: 105px;
+    padding: 17px;
+    color: #9E9D9D;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+input[type=submit]
+{
+    width: 350px;
+    height: 50px;
+    background-color: #36b03c;
+    font-size: 20px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover
+{
+    background-color:#40D647;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus
+{
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    border: 1px solid black;
+    background-color: #F1FFF2;
+}
+
+input[type=submit]:focus,
+input[type=submit]:hover
+{
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+
+.logoLeft
+{
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 65px;
+    font-family: 'Bahianita', cursive;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: black 15px 25px 33px;
+    max-width: 100%;
+    text-align: left;
+}

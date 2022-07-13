@@ -1,0 +1,87 @@
+body
+{
+    background-color: #333333;
+    color: white;
+}
+
+.start
+{
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+    text-align: center;
+}
+
+.configurator
+{
+    width: 100%;
+    text-align: right;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input[name=start]
+{
+    width: 350px;
+    height: 50px;
+    background-color: #992323;
+    font-size: 20px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+a.input[type=submit]
+{
+    background-color: #808080;
+}
+
+input[type=submit]:hover
+{
+    background-color:#E12323;
+}
+
+#logo
+{
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.form
+{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 50px;
+    font-family: "Open Sans Condensed", cursive;
+}
+
+input[type=text]
+
+{
+    width: 275px;
+    padding: 17px;
+    color: #000000;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 13px;
+    max-width: 100%;
+}
+
+input[type=text]:hover
+{
+    border: solid black 2px;
+}
+
+#login
+{
+    text-align: center;
+}

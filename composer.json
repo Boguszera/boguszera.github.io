@@ -1,0 +1,13 @@
+{
+    "name": "admin1/public",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Boguszera",
+            "email": "bogusz.biznes@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0"
+    }
+}

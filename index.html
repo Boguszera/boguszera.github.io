@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>PORTFOLIO.</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/style2.css" type="text/css"/>
+    <link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Bahianita&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="jscripts/timer.js"></script>
+    <script type="text/javascript" src="jscripts/showmenu.js"></script>
+    <script type="text/javascript" src="jscripts/validation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+</head>
+<body onload="refresh(); ">
+
+<script>
+
+</script>
+
+<div id="form" class="modal">
+    <div class="modalContainer">
+        <div class="modalHeader">NAPISZ WIADOMOŚĆ! </div>
+        <form name="Form" action="vmromrfewf" method="get" onsubmit="return validation()" id="submitForm">
+            <div class="modalMail">
+                Mail: <input type="email" id="inputEmail" name="email" placeholder="np. marek@wp.pl" onfocus="this.placeholder=' '">
+            </div>
+            <div class="modalTopic">
+                Temat: <input type="text" id="topic" name="topic" placeholder="min. 10 znaków" onfocus="this.placeholder=' '">
+            </div>
+            <div class="modalContent">
+                Treść: </br>
+                <textarea type="message" placeholder="min. 20 znaków" name="message" style="width:400px; height:400px;"onfocus="this.placeholder=' '"></textarea>
+            </div>
+            <div id="error"></div>
+            <div class="modalSend">
+                <input type="submit" value="Wyślij!">
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<div id="container">
+    <div id="heading">
+        <div id="clock">
+        </div>
+
+        <div id="date">
+        </div>
+
+        <div class="dropdown">
+            <button onClick="showMenu()" class="dropbtn">
+                <i class="icon-menu-outline"></i>
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <div class="navigation">
+                    <ul>
+                        <li>
+                            <div class="options"><a href="quiz.php" class="link">Quiz</a></div>
+                        </li>
+                        <li>
+                            <div class="options"><a href="login.php" class="link">Zaloguj się</a></div>
+                        </li>
+                        <li>
+                            <div class="options"><a href="wspolpraca.html" class="link">Współpraca</a></div>
+                        </li>
+                        <li>
+                            <div class="options"><a href="projekty.php" class="link">Projekty</a></div>
+                        </li>
+                        <li>
+                            <div class="options"><a href="#form" rel="modal:open" class="link">Zadaj pytanie</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="logo">
+            Filip<span style="color: tomato"> Bogusz</span>
+        </div>
+        <div class="description ig">
+            Web Developer.
+        </div>
+
+
+
+    </div>
+
+    <div class="footer">
+        <div class="socials">
+            <div class="icon fb">
+                <a href="facebook.com"> <i class="icon-facebook"></i> </a>
+            </div>
+            <div class="icon ig">
+                <a href="instagram.com>"><i class="icon-instagram"></i> </a>
+            </div>
+            <div class="icon yt">
+                <a href="youtube.com"><i class="icon-youtube-play"></i> </a>
+            </div>
+            <div class="icon mail">
+                <a href="wp.pl"><i class="icon-gmail"></i> </a>
+            </div>
+            <div style="clear:both">
+            </div>
+        </div>
+        Filip Bogusz &copy; 2019
+    </div>
+</div>
+
+</body>
+</html>
